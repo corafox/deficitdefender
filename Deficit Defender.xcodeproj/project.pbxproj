@@ -1,0 +1,822 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06FDECBF263E082D00CF4E7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDECBE263E082D00CF4E7D /* AppDelegate.swift */; };
+		06FDECC1263E082D00CF4E7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDECC0263E082D00CF4E7D /* SceneDelegate.swift */; };
+		06FDECC3263E082D00CF4E7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDECC2263E082D00CF4E7D /* ViewController.swift */; };
+		06FDECC6263E082D00CF4E7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FDECC4263E082D00CF4E7D /* Main.storyboard */; };
+		06FDECC8263E083200CF4E7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06FDECC7263E083200CF4E7D /* Assets.xcassets */; };
+		06FDECCB263E083200CF4E7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06FDECC9263E083200CF4E7D /* LaunchScreen.storyboard */; };
+		06FDECD6263E083200CF4E7D /* Deficit_DefenderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDECD5263E083200CF4E7D /* Deficit_DefenderTests.swift */; };
+		06FDECE1263E083200CF4E7D /* Deficit_DefenderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDECE0263E083200CF4E7D /* Deficit_DefenderUITests.swift */; };
+		06FDED09263E217200CF4E7D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDED08263E217200CF4E7D /* Extensions.swift */; };
+		06FDED11263E282800CF4E7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDED10263E282800CF4E7D /* HomeViewController.swift */; };
+		06FDED16263ECCD700CF4E7D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDED15263ECCD700CF4E7D /* ProfileViewController.swift */; };
+		06FDED1B263ECCE800CF4E7D /* GoalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDED1A263ECCE800CF4E7D /* GoalsViewController.swift */; };
+		06FDED27263ED40600CF4E7D /* GoalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDED26263ED40600CF4E7D /* GoalTableViewCell.swift */; };
+		06FDED6D263F019200CF4E7D /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDED6C263F019200CF4E7D /* DBManager.swift */; };
+		06FDED73263F01FF00CF4E7D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06FDED72263F01FF00CF4E7D /* DataModel.swift */; };
+		06FDEDA3263F1E1E00CF4E7D /* logo-round-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FDEDA2263F1E1E00CF4E7D /* logo-round-1.png */; };
+		06FDEDA8263F1E4000CF4E7D /* logo-round-min.png in Resources */ = {isa = PBXBuildFile; fileRef = 06FDEDA7263F1E4000CF4E7D /* logo-round-min.png */; };
+		7D58DA41A072B564312A04FB /* Pods_Deficit_DefenderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD4893AF5D8E590316A5336D /* Pods_Deficit_DefenderTests.framework */; };
+		9E111496F28C3F667072D25F /* Pods_Deficit_Defender_Deficit_DefenderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93266A0754F4C2CAD19CD128 /* Pods_Deficit_Defender_Deficit_DefenderUITests.framework */; };
+		A4AFD33ED0243E2E1FAC8117 /* Pods_Deficit_Defender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1B11F15E8D0811C423A7B6 /* Pods_Deficit_Defender.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06FDECD2263E083200CF4E7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06FDECB3263E082C00CF4E7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06FDECBA263E082D00CF4E7D;
+			remoteInfo = "Deficit Defender";
+		};
+		06FDECDD263E083200CF4E7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06FDECB3263E082C00CF4E7D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06FDECBA263E082D00CF4E7D;
+			remoteInfo = "Deficit Defender";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FDECBB263E082D00CF4E7D /* Deficit Defender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deficit Defender.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FDECBE263E082D00CF4E7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06FDECC0263E082D00CF4E7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		06FDECC2263E082D00CF4E7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06FDECC5263E082D00CF4E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06FDECC7263E083200CF4E7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06FDECCA263E083200CF4E7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06FDECCC263E083200CF4E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FDECD1263E083200CF4E7D /* Deficit DefenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deficit DefenderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FDECD5263E083200CF4E7D /* Deficit_DefenderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deficit_DefenderTests.swift; sourceTree = "<group>"; };
+		06FDECD7263E083200CF4E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FDECDC263E083200CF4E7D /* Deficit DefenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deficit DefenderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06FDECE0263E083200CF4E7D /* Deficit_DefenderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deficit_DefenderUITests.swift; sourceTree = "<group>"; };
+		06FDECE2263E083300CF4E7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06FDED08263E217200CF4E7D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		06FDED10263E282800CF4E7D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		06FDED15263ECCD700CF4E7D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		06FDED1A263ECCE800CF4E7D /* GoalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsViewController.swift; sourceTree = "<group>"; };
+		06FDED26263ED40600CF4E7D /* GoalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalTableViewCell.swift; sourceTree = "<group>"; };
+		06FDED6C263F019200CF4E7D /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		06FDED72263F01FF00CF4E7D /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		06FDEDA2263F1E1E00CF4E7D /* logo-round-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-round-1.png"; sourceTree = "<group>"; };
+		06FDEDA7263F1E4000CF4E7D /* logo-round-min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-round-min.png"; sourceTree = "<group>"; };
+		28103CFC11838F362A3D2CC6 /* Pods-Deficit DefenderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deficit DefenderTests.debug.xcconfig"; path = "Target Support Files/Pods-Deficit DefenderTests/Pods-Deficit DefenderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		415AA12B2F6652520110AEA0 /* Pods-Deficit Defender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deficit Defender.debug.xcconfig"; path = "Target Support Files/Pods-Deficit Defender/Pods-Deficit Defender.debug.xcconfig"; sourceTree = "<group>"; };
+		7910BA0EF3AC359D6DE7AE25 /* Pods-Deficit Defender-Deficit DefenderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deficit Defender-Deficit DefenderUITests.debug.xcconfig"; path = "Target Support Files/Pods-Deficit Defender-Deficit DefenderUITests/Pods-Deficit Defender-Deficit DefenderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93266A0754F4C2CAD19CD128 /* Pods_Deficit_Defender_Deficit_DefenderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deficit_Defender_Deficit_DefenderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E64F0C793CF78E3419A5A24 /* Pods-Deficit Defender-Deficit DefenderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deficit Defender-Deficit DefenderUITests.release.xcconfig"; path = "Target Support Files/Pods-Deficit Defender-Deficit DefenderUITests/Pods-Deficit Defender-Deficit DefenderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CCAB86382817FC25B895C0C7 /* Pods-Deficit DefenderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deficit DefenderTests.release.xcconfig"; path = "Target Support Files/Pods-Deficit DefenderTests/Pods-Deficit DefenderTests.release.xcconfig"; sourceTree = "<group>"; };
+		CD4893AF5D8E590316A5336D /* Pods_Deficit_DefenderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deficit_DefenderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB1B11F15E8D0811C423A7B6 /* Pods_Deficit_Defender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Deficit_Defender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7E0D06C7B592B52A762EA46 /* Pods-Deficit Defender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Deficit Defender.release.xcconfig"; path = "Target Support Files/Pods-Deficit Defender/Pods-Deficit Defender.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06FDECB8263E082D00CF4E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AFD33ED0243E2E1FAC8117 /* Pods_Deficit_Defender.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDECCE263E083200CF4E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D58DA41A072B564312A04FB /* Pods_Deficit_DefenderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDECD9263E083200CF4E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E111496F28C3F667072D25F /* Pods_Deficit_Defender_Deficit_DefenderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06FDECB2263E082C00CF4E7D = {
+			isa = PBXGroup;
+			children = (
+				06FDECBD263E082D00CF4E7D /* Deficit Defender */,
+				06FDECD4263E083200CF4E7D /* Deficit DefenderTests */,
+				06FDECDF263E083200CF4E7D /* Deficit DefenderUITests */,
+				06FDECBC263E082D00CF4E7D /* Products */,
+				AFA69626FC629780ABCED637 /* Pods */,
+				1D39EB2674F2DA1D750B946F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		06FDECBC263E082D00CF4E7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06FDECBB263E082D00CF4E7D /* Deficit Defender.app */,
+				06FDECD1263E083200CF4E7D /* Deficit DefenderTests.xctest */,
+				06FDECDC263E083200CF4E7D /* Deficit DefenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06FDECBD263E082D00CF4E7D /* Deficit Defender */ = {
+			isa = PBXGroup;
+			children = (
+				06FDED65263F018000CF4E7D /* DBManager */,
+				06FDED25263ED3F400CF4E7D /* TVC */,
+				06FDECFE263E211400CF4E7D /* ViewController */,
+				06FDECBE263E082D00CF4E7D /* AppDelegate.swift */,
+				06FDECC0263E082D00CF4E7D /* SceneDelegate.swift */,
+				06FDECC2263E082D00CF4E7D /* ViewController.swift */,
+				06FDECC4263E082D00CF4E7D /* Main.storyboard */,
+				06FDECC7263E083200CF4E7D /* Assets.xcassets */,
+				06FDEDA2263F1E1E00CF4E7D /* logo-round-1.png */,
+				06FDEDA7263F1E4000CF4E7D /* logo-round-min.png */,
+				06FDECC9263E083200CF4E7D /* LaunchScreen.storyboard */,
+				06FDECCC263E083200CF4E7D /* Info.plist */,
+				06FDED08263E217200CF4E7D /* Extensions.swift */,
+			);
+			path = "Deficit Defender";
+			sourceTree = "<group>";
+		};
+		06FDECD4263E083200CF4E7D /* Deficit DefenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				06FDECD5263E083200CF4E7D /* Deficit_DefenderTests.swift */,
+				06FDECD7263E083200CF4E7D /* Info.plist */,
+			);
+			path = "Deficit DefenderTests";
+			sourceTree = "<group>";
+		};
+		06FDECDF263E083200CF4E7D /* Deficit DefenderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06FDECE0263E083200CF4E7D /* Deficit_DefenderUITests.swift */,
+				06FDECE2263E083300CF4E7D /* Info.plist */,
+			);
+			path = "Deficit DefenderUITests";
+			sourceTree = "<group>";
+		};
+		06FDECFE263E211400CF4E7D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				06FDED10263E282800CF4E7D /* HomeViewController.swift */,
+				06FDED15263ECCD700CF4E7D /* ProfileViewController.swift */,
+				06FDED1A263ECCE800CF4E7D /* GoalsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		06FDED25263ED3F400CF4E7D /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				06FDED26263ED40600CF4E7D /* GoalTableViewCell.swift */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+		06FDED65263F018000CF4E7D /* DBManager */ = {
+			isa = PBXGroup;
+			children = (
+				06FDED71263F01E100CF4E7D /* Model */,
+				06FDED6C263F019200CF4E7D /* DBManager.swift */,
+			);
+			path = DBManager;
+			sourceTree = "<group>";
+		};
+		06FDED71263F01E100CF4E7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06FDED72263F01FF00CF4E7D /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D39EB2674F2DA1D750B946F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB1B11F15E8D0811C423A7B6 /* Pods_Deficit_Defender.framework */,
+				93266A0754F4C2CAD19CD128 /* Pods_Deficit_Defender_Deficit_DefenderUITests.framework */,
+				CD4893AF5D8E590316A5336D /* Pods_Deficit_DefenderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFA69626FC629780ABCED637 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				415AA12B2F6652520110AEA0 /* Pods-Deficit Defender.debug.xcconfig */,
+				F7E0D06C7B592B52A762EA46 /* Pods-Deficit Defender.release.xcconfig */,
+				7910BA0EF3AC359D6DE7AE25 /* Pods-Deficit Defender-Deficit DefenderUITests.debug.xcconfig */,
+				9E64F0C793CF78E3419A5A24 /* Pods-Deficit Defender-Deficit DefenderUITests.release.xcconfig */,
+				28103CFC11838F362A3D2CC6 /* Pods-Deficit DefenderTests.debug.xcconfig */,
+				CCAB86382817FC25B895C0C7 /* Pods-Deficit DefenderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06FDECBA263E082D00CF4E7D /* Deficit Defender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FDECE5263E083300CF4E7D /* Build configuration list for PBXNativeTarget "Deficit Defender" */;
+			buildPhases = (
+				F90439A320E7F6E69B342046 /* [CP] Check Pods Manifest.lock */,
+				06FDECB7263E082D00CF4E7D /* Sources */,
+				06FDECB8263E082D00CF4E7D /* Frameworks */,
+				06FDECB9263E082D00CF4E7D /* Resources */,
+				EEE74573500B9895FB9A36FB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deficit Defender";
+			productName = "Deficit Defender";
+			productReference = 06FDECBB263E082D00CF4E7D /* Deficit Defender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06FDECD0263E083200CF4E7D /* Deficit DefenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FDECE8263E083300CF4E7D /* Build configuration list for PBXNativeTarget "Deficit DefenderTests" */;
+			buildPhases = (
+				C4205140BC51D9CDBCF47CB1 /* [CP] Check Pods Manifest.lock */,
+				06FDECCD263E083200CF4E7D /* Sources */,
+				06FDECCE263E083200CF4E7D /* Frameworks */,
+				06FDECCF263E083200CF4E7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06FDECD3263E083200CF4E7D /* PBXTargetDependency */,
+			);
+			name = "Deficit DefenderTests";
+			productName = "Deficit DefenderTests";
+			productReference = 06FDECD1263E083200CF4E7D /* Deficit DefenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06FDECDB263E083200CF4E7D /* Deficit DefenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06FDECEB263E083300CF4E7D /* Build configuration list for PBXNativeTarget "Deficit DefenderUITests" */;
+			buildPhases = (
+				F754DB9A9E41B0EA23BEFBDB /* [CP] Check Pods Manifest.lock */,
+				06FDECD8263E083200CF4E7D /* Sources */,
+				06FDECD9263E083200CF4E7D /* Frameworks */,
+				06FDECDA263E083200CF4E7D /* Resources */,
+				29B1F4C255E12458560D84DF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06FDECDE263E083200CF4E7D /* PBXTargetDependency */,
+			);
+			name = "Deficit DefenderUITests";
+			productName = "Deficit DefenderUITests";
+			productReference = 06FDECDC263E083200CF4E7D /* Deficit DefenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06FDECB3263E082C00CF4E7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					06FDECBA263E082D00CF4E7D = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					06FDECD0263E083200CF4E7D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 06FDECBA263E082D00CF4E7D;
+					};
+					06FDECDB263E083200CF4E7D = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 06FDECBA263E082D00CF4E7D;
+					};
+				};
+			};
+			buildConfigurationList = 06FDECB6263E082C00CF4E7D /* Build configuration list for PBXProject "Deficit Defender" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06FDECB2263E082C00CF4E7D;
+			productRefGroup = 06FDECBC263E082D00CF4E7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06FDECBA263E082D00CF4E7D /* Deficit Defender */,
+				06FDECD0263E083200CF4E7D /* Deficit DefenderTests */,
+				06FDECDB263E083200CF4E7D /* Deficit DefenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06FDECB9263E082D00CF4E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FDEDA8263F1E4000CF4E7D /* logo-round-min.png in Resources */,
+				06FDECCB263E083200CF4E7D /* LaunchScreen.storyboard in Resources */,
+				06FDECC8263E083200CF4E7D /* Assets.xcassets in Resources */,
+				06FDECC6263E082D00CF4E7D /* Main.storyboard in Resources */,
+				06FDEDA3263F1E1E00CF4E7D /* logo-round-1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDECCF263E083200CF4E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDECDA263E083200CF4E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29B1F4C255E12458560D84DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deficit Defender-Deficit DefenderUITests/Pods-Deficit Defender-Deficit DefenderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deficit Defender-Deficit DefenderUITests/Pods-Deficit Defender-Deficit DefenderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deficit Defender-Deficit DefenderUITests/Pods-Deficit Defender-Deficit DefenderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4205140BC51D9CDBCF47CB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deficit DefenderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEE74573500B9895FB9A36FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deficit Defender/Pods-Deficit Defender-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Deficit Defender/Pods-Deficit Defender-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Deficit Defender/Pods-Deficit Defender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F754DB9A9E41B0EA23BEFBDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deficit Defender-Deficit DefenderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90439A320E7F6E69B342046 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Deficit Defender-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06FDECB7263E082D00CF4E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FDED27263ED40600CF4E7D /* GoalTableViewCell.swift in Sources */,
+				06FDED1B263ECCE800CF4E7D /* GoalsViewController.swift in Sources */,
+				06FDED16263ECCD700CF4E7D /* ProfileViewController.swift in Sources */,
+				06FDED11263E282800CF4E7D /* HomeViewController.swift in Sources */,
+				06FDED6D263F019200CF4E7D /* DBManager.swift in Sources */,
+				06FDED73263F01FF00CF4E7D /* DataModel.swift in Sources */,
+				06FDED09263E217200CF4E7D /* Extensions.swift in Sources */,
+				06FDECC3263E082D00CF4E7D /* ViewController.swift in Sources */,
+				06FDECBF263E082D00CF4E7D /* AppDelegate.swift in Sources */,
+				06FDECC1263E082D00CF4E7D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDECCD263E083200CF4E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FDECD6263E083200CF4E7D /* Deficit_DefenderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06FDECD8263E083200CF4E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FDECE1263E083200CF4E7D /* Deficit_DefenderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06FDECD3263E083200CF4E7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06FDECBA263E082D00CF4E7D /* Deficit Defender */;
+			targetProxy = 06FDECD2263E083200CF4E7D /* PBXContainerItemProxy */;
+		};
+		06FDECDE263E083200CF4E7D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06FDECBA263E082D00CF4E7D /* Deficit Defender */;
+			targetProxy = 06FDECDD263E083200CF4E7D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06FDECC4263E082D00CF4E7D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06FDECC5263E082D00CF4E7D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06FDECC9263E083200CF4E7D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06FDECCA263E083200CF4E7D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06FDECE3263E083300CF4E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06FDECE4263E083300CF4E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06FDECE6263E083300CF4E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 415AA12B2F6652520110AEA0 /* Pods-Deficit Defender.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UM8SC68WY;
+				INFOPLIST_FILE = "Deficit Defender/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deficitDefender.Deficit-Defender";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		06FDECE7263E083300CF4E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7E0D06C7B592B52A762EA46 /* Pods-Deficit Defender.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7UM8SC68WY;
+				INFOPLIST_FILE = "Deficit Defender/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deficitDefender.Deficit-Defender";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		06FDECE9263E083300CF4E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28103CFC11838F362A3D2CC6 /* Pods-Deficit DefenderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V7VFMW29X;
+				INFOPLIST_FILE = "Deficit DefenderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyrosoft.deficitDefender.Deficit-DefenderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deficit Defender.app/Deficit Defender";
+			};
+			name = Debug;
+		};
+		06FDECEA263E083300CF4E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCAB86382817FC25B895C0C7 /* Pods-Deficit DefenderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V7VFMW29X;
+				INFOPLIST_FILE = "Deficit DefenderTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyrosoft.deficitDefender.Deficit-DefenderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deficit Defender.app/Deficit Defender";
+			};
+			name = Release;
+		};
+		06FDECEC263E083300CF4E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7910BA0EF3AC359D6DE7AE25 /* Pods-Deficit Defender-Deficit DefenderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V7VFMW29X;
+				INFOPLIST_FILE = "Deficit DefenderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyrosoft.deficitDefender.Deficit-DefenderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deficit Defender";
+			};
+			name = Debug;
+		};
+		06FDECED263E083300CF4E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E64F0C793CF78E3419A5A24 /* Pods-Deficit Defender-Deficit DefenderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4V7VFMW29X;
+				INFOPLIST_FILE = "Deficit DefenderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tyrosoft.deficitDefender.Deficit-DefenderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deficit Defender";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06FDECB6263E082C00CF4E7D /* Build configuration list for PBXProject "Deficit Defender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FDECE3263E083300CF4E7D /* Debug */,
+				06FDECE4263E083300CF4E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FDECE5263E083300CF4E7D /* Build configuration list for PBXNativeTarget "Deficit Defender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FDECE6263E083300CF4E7D /* Debug */,
+				06FDECE7263E083300CF4E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FDECE8263E083300CF4E7D /* Build configuration list for PBXNativeTarget "Deficit DefenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FDECE9263E083300CF4E7D /* Debug */,
+				06FDECEA263E083300CF4E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06FDECEB263E083300CF4E7D /* Build configuration list for PBXNativeTarget "Deficit DefenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06FDECEC263E083300CF4E7D /* Debug */,
+				06FDECED263E083300CF4E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06FDECB3263E082C00CF4E7D /* Project object */;
+}
